@@ -1,5 +1,3 @@
-# infrared-visible-image-fusion-cbam-unet
-
 # Detection-Driven Infrared-Visible Image Fusion Using CBAM and U-Net Architectures
 
 This repository contains the implementation codes for the study titled “Detection-Driven Infrared-Visible Image Fusion Using CBAM and U-Net Architectures.”
