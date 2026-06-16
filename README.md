@@ -399,14 +399,7 @@ infrared_train_dir = os.path.join(DATASET_DIR, "infrared", "train")
 labels_dir = os.path.join(DATASET_DIR, "labels_all")
 
 # Daha önce kullandığımız train_files ve val_files listeleri varsa direkt çalışır.
-# Eğer runtime sıfırlandıysa, aşağıdaki kısmı aç:
-# import random
-# all_images = sorted([f for f in os.listdir(visible_train_dir) if f.endswith(".jpg")])
-# random.seed(42)
-# random.shuffle(all_images)
-# subset = all_images[:1000]
-# train_files = subset[:800]
-# val_files = subset[800:1000]
+
 
 fusion_settings = [
     ("FUSED_05_05", 0.5, 0.5),
